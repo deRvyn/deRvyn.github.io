@@ -1,0 +1,126 @@
+header.masthead {
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color: #868e96;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+  }
+
+#mainNav {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 15px;
+}
+  
+#mainNav .navbar-nav > li.nav-item > a {
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header.masthead .site-heading {
+  padding: 100px 0 67px;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header.masthead .post-heading h1{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-size: 80px;
+}
+
+header.masthead .post-heading .meta {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header.masthead .post-heading {
+  padding: 200px 0 200px;
+}
+
+header.masthead .post-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.floating-label-form-group input::-webkit-input-placeholder,
+.floating-label-form-group textarea::-webkit-input-placeholder {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.post-preview > a > .post-subtitle {
+  font-weight: 200;
+}
+
+.profilePic {
+  width:225px;
+  height:225px;
+  border-radius: 50%;
+}
+
+.gallery {
+  margin: 10px 50px;
+  text-align: center;
+}
+
+.gallery img {
+  transition: 1s;
+  padding: 50px;
+  width: 400px;
+  display: inline-block;
+}
+
+.gallery img:hover {
+  filter: brightness(110%) contrast(110%);
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a {
+  color: #004d99;
+}
